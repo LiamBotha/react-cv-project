@@ -1,3 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
 .date-header {
     margin: 0;
+}
+
+.padding-1 {
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.thin-font {
+    font-weight: 200;
+}
+
+.divider {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 8px 10px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+#edu-exp {
+    color: black;
+    padding: 10px;
+    height: 100%;
+}
+
+#description {
+    color: black;
+    padding: 20px;
 }
